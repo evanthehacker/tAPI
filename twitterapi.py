@@ -16,8 +16,8 @@ CONSUMER_SECRET = 'DO NOT TOUCH'
 
 # Setup tweepy to authenticate with Twitter credentials:
 
-auth = tweepy.OAuthHandler("ENTER HERE", "ENTER HERE")
-auth.set_access_token("ENTER HERE", "ENTER HERE")
+auth = tweepy.OAuthHandler("NORMAL ENTER HERE", "SECRET ENTER HERE")
+auth.set_access_token("NORMAL ENTER HERE", "SECRET ENTER HERE")
 
 # Create the api to connect to twitter with your creadentials
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, compression=True)
